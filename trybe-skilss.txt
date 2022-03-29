@@ -1,4 +1,0 @@
-Unix
-Bash
-Zsh
-Git
