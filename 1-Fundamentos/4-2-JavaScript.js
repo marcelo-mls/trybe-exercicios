@@ -82,3 +82,11 @@ console.log("")
 console.log("8) array até 25")
 console.log(numbers)
 
+// Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+divisao = []
+for(let num of numbers){
+    divisao.push(num/2)
+}
+console.log("")
+console.log("9) dividir por 2")
+console.log(divisao)
