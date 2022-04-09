@@ -1,0 +1,35 @@
+    1  clear
+    2  cd ..
+    3  cd marcelo
+    4  cd Tryb
+    5  cd Trybe
+    6  ls -a
+    7  touch trybe-skilss.txt
+    8  cat > trybe-skilss.txt
+    9  cat trybe-skilss.txt
+   10  ls -l
+   11  git init
+   12  rm README.md
+   13  touch README.md
+   14  cat > README.md
+   15  cat README.md
+   16  git add .
+   17  git commit -m "Commit inicial"
+   18  find .
+   19  cd 1-Fundamentos
+   20  cd 'Bloco 2 - Git-Internet
+   21  cd 'Bloco 2 - Git-Internet'
+   22  ls -a
+   23  rm -rf .git
+   24  ls -a
+   25  cd ..
+   26  git add .
+   27  git commit -m "Commit inicial"
+   28  git remote add origin git@github.com:marcelo-mls/trybe-exercicios.git
+   29  git remote -v
+   30  git push origin master
+   31  git status
+   32  cd 1-Fundamentos
+   33  cd 'Bloco 2 - Git-Internet/'
+   34  touch 2-2
+   35  history | > 2-2
