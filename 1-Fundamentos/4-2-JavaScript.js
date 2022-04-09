@@ -21,3 +21,9 @@ for(let num of sorteio){
 console.log("")
 console.log("2) soma")
 console.log(soma)
+
+// Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+avg = soma / sorteio.length
+console.log("")
+console.log("3) média")
+console.log(avg)
