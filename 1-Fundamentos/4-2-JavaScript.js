@@ -36,3 +36,14 @@ if(avg > 20){
 } else {
     console.log("valor menor ou igual a 20")
 }
+
+// Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+max = sorteio[0]
+for (let i = 1; i < sorteio.length; i = i+1){
+    if (sorteio[i] >= max){
+        max = sorteio[i]
+    }
+}
+console.log("")
+console.log("5) maior número")
+console.log(max)
