@@ -47,3 +47,18 @@ for (let i = 1; i < sorteio.length; i = i+1){
 console.log("")
 console.log("5) maior número")
 console.log(max)
+
+// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+contador = 0
+for(let num of sorteio){
+    if(num % 2 > 0){
+        contador = contador + 1
+    }
+}
+console.log("")
+console.log("6) total de números impares")
+if(contador == 0){      
+    console.log("nenhum valor ímpar encontrado")
+} else {
+    console.log(contador)
+}
