@@ -27,3 +27,12 @@ avg = soma / sorteio.length
 console.log("")
 console.log("3) média")
 console.log(avg)
+
+// Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
+console.log("")
+console.log("4) Média em relação a vinte")
+if(avg > 20){
+    console.log("valor maior que 20")
+} else {
+    console.log("valor menor ou igual a 20")
+}
