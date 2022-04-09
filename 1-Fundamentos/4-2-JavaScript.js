@@ -62,3 +62,13 @@ if(contador == 0){
 } else {
     console.log(contador)
 }
+// Utilizando for , descubra qual o menor valor contido no array e imprima-o;
+min = sorteio[0]
+for(let i = 1; i < sorteio.length; i = i+1){
+    if(sorteio[i] < min){
+        min = sorteio[i]
+    }
+}
+console.log("")
+console.log("7) menor número")
+console.log(min)
