@@ -72,3 +72,13 @@ for(let i = 1; i < sorteio.length; i = i+1){
 console.log("")
 console.log("7) menor número")
 console.log(min)
+
+// Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+numbers = []
+for(let i = 1; i <= 25; i = i+1){
+    numbers.push(i)
+}
+console.log("")
+console.log("8) array até 25")
+console.log(numbers)
+
