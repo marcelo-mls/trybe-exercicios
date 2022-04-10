@@ -37,4 +37,20 @@ console.log("Maior: " + maior)
 console.log("Menor: " + menor)
 
 /* 4- Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50. */
-
+let primos = []
+for(num=1; num <= 50; num=num+1){
+    let contador = 0
+    for(i = 1; i <= num; i = i +1){
+        if(num % i == 0){
+            contador = contador + 1
+        }
+    }
+    if(contador == 2){
+        primos.push(num)
+    }
+}
+console.log("")
+console.log("4) Maior e Menor número primo de 50")
+console.log(primos)
+console.log("Maior: " + primos[0])
+console.log("Menor: " + primos[primos.length-1])
