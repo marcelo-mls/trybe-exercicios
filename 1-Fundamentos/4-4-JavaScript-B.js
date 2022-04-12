@@ -17,7 +17,7 @@ Retorno esperado: true
 verificaPalindrome('desenvolvimento') 
 Retorno esperado: false */
 
-function palindromo(word){
+/* function palindromo(word){
     let palavra = word
     let palavraInvertida = palavra.split("").reverse().join("")
 
@@ -30,16 +30,32 @@ function palindromo(word){
 
 console.log("")
 console.log("1) Palíndromo")
-console.log( palindromo("Hannah") )
+console.log( palindromo("Hannah") ) */
 
-/* 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+// 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+function indiceMaior(array){  
+
+    let maior = array[0]
+    for(let n of array){
+        if(n > maior){
+            maior = n
+        }
+    }
+    return "O array é: " + array + ". O maior número é " + maior + ". E o seu indice é: " + array.indexOf(maior)
+}
+
+console.log("")
+console.log("2) Indice do Maior")
+console.log(indiceMaior(arrayNums(6, 100)))
 
 
-/* 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+
+// 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
 
 
-/* 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
-Array de teste: ['José', 'Marcelo', 'Laura', 'Lygia', 'Wania']
+/*  4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+Array de teste: ['José', 'Marcelo', 'Laura', 'Lygia', 'Wania'] */
 
 /* 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
 Array de teste: [2, 3, 2, 5, 8, 2, 3] .
