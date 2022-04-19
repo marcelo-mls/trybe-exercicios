@@ -1,0 +1,139 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.width-and-height {
+    height: 50px;
+    width: 50px;
+}
+
+.padding {
+    padding: 20px
+}
+
+.border {
+    border: 5px solid black;
+}
+
+.margin {
+    margin: 30px;
+}
+
+.super-mario {
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+  }
+  
+.goomba {
+    width: 75px;
+    position: absolute;
+    top: 475px;
+    left: 100px;
+  }
+  
+.baloon {
+    width: 200px;
+    position: absolute;
+    left: 300px;
+  }
+  
+.speach {
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    top: 350px;
+    left: 315px;
+    z-index: 1;
+  }
+  
+.bowser {
+    width: 200px;
+    position: absolute;
+    top: 415px;
+    left: 495px;
+  }
+
+#n3-3 {
+    position: absolute;
+    top: 600px;
+  }
+
+#n3-4 {
+    position: absolute;
+    top: 900px;
+  }
+
+#n3-5 {
+    position: absolute;
+    top: 1200px;
+  }
+
+.titulo-exercicios {
+    background: #1F26A6;
+    color: white;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div p.center, ol.center li {
+    text-align: center;
+    list-style: none;
+}
+
+ol.center li:hover {
+    background: #1F26A6;
+    color: white;
+}
+
+ol.center li:active {
+    font-family: Impact;
+    font-size: larger;
+}
+
+div h3:hover {
+    border: 6px solid black;
+  }
+
+div:nth-of-type(1) {
+    background-color: red;
+  }
+  
+  div:nth-of-type(2) {
+    background-color: green;
+  }
+  
+  div:nth-of-type(3) {
+    background-color: yellow;
+  }
+  
+  div:nth-of-type(4) {
+    background-color: grey;
+  }
+  
+  div:nth-of-type(5) {
+    background-color: lightblue;
+  }
+
+  ol li:nth-child(odd) em {
+      color: blueviolet;
+  }
+
+  ol li:nth-child(even) em {
+    color: rgb(243, 0, 162);
+}
+
+ol li em:hover {
+    text-transform: uppercase;
+    color:#1F26A6
+}
