@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 0px 5px;
+}
+
+hr {
+    border-color: rgb(219, 180, 6);
+    border-style: dashed;
+}
+
+div {
+    background-color: rgb(84, 83, 83);
+    box-shadow: -2px 2px 20px 5px black;
+    padding: 2px 0px;
+}
+
+div img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 15%;
+}
