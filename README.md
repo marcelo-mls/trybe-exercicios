@@ -18,9 +18,9 @@ O programa conta com mais de 1.500 horas de aulas, aborda introdução ao desenv
 - [x] Bloco 4: Introdução à JavaScript e Lógica de Programação
 - 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-022-b-project-playground-functions/pull/69/files)_ :heavy_check_mark: 
 
-- [ ] Bloco 5: JavaScript: DOM, Eventos e Web Storage
-- 5-5: _[Projeto - Meme Generator]()_
-- 5-6: _[Projeto - Arte com Pixels]()_
+- [x] Bloco 5: JavaScript: DOM, Eventos e Web Storage
+- 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-022-b-project-pixels-art/pull/103/files)_ :heavy_check_mark: 
+- 5-6: _[Projeto - Meme Generator]()_
 - 5-7: _[Projeto - Lista de tarefas]()_
 - 5-7: _[Projeto - Adivinhe a Cor]()_
 - 5-7: _[Projeto - Carta Misteriosa]()_
