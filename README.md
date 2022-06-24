@@ -21,24 +21,50 @@ O programa conta com mais de 1.500 horas de aulas, aborda introdução ao desenv
 - [x] Bloco 5: JavaScript: DOM, Eventos e Web Storage
 - 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-022-b-project-pixels-art/pull/103/files)_ :heavy_check_mark: 
 - 5-6: _[Projeto - Meme Generator]()_
-- 5-7: _[Projeto - Lista de tarefas]()_
-- 5-7: _[Projeto - Adivinhe a Cor]()_
-- 5-7: _[Projeto - Carta Misteriosa]()_
+- 5-7: _[Projeto - Lista de tarefas]()_ :heavy_check_mark: 
+- 5-7: _[Projeto - Adivinhe a Cor]()_ :heavy_check_mark: 
+- 5-7: _[Projeto - Carta Misteriosa]()_ 
 
-- [ ] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
-- 6-6: _[Projeto - Trybewarts]()_
+- [x] Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+- 6-6: _[Projeto - Trybewarts]()_ :heavy_check_mark: 
 
-- [ ] Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
-- 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+- 7-4: _[Projeto - JavaScript Testes Unitários]()_ :heavy_check_mark: 
 
-- [ ] Bloco 8: Higher Order Functions do JavaScript ES6
-- 8-5: _[Projeto - Zoo functions]()_
-
-- [ ] Bloco 9: JavaScript e Testes Assíncronos
-- 9-3: _[Projeto - Carrinho de Compras]()_
-
+- [x] Bloco 8: Higher Order Functions do JavaScript ES6
+- 8-5: _[Projeto - Zoo functions]()_ :heavy_check_mark: 
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
+
+- [] Bloco 9: JavaScript e Testes Assíncronos
+- 9-4: _[Projeto - Carrinho de Compras]()_ :heavy_check_mark:
+
+- [x] Bloco 10: Introdução à React
+- 10-3: _[Projeto - Sistema Solar]()_ :heavy_check_mark:
+
+- [x] Bloco 11: Componentes com Estado, Eventos e Formulários com React
+- 11-3: _[Projeto - Tryunfo]()_
+
+- [] Bloco 12: Waiting...
+- 12-x: _[Projeto - Waiting...]()_
+
+- [] Bloco 13: Waiting...
+- 13-x: _[Projeto - Waiting...]()_
+
+- [] Bloco 14: Waiting...
+- 14-x: _[Projeto - Waiting...]()_
+
+- [] Bloco 15: Waiting...
+- 15-x: _[Projeto - Waiting...]()_
+
+- [] Bloco 16: Waiting...
+- 16-x: _[Projeto - Waiting...]()_
+
+- [] Bloco 17: Waiting...
+- 17-x: _[Projeto - Waiting...]()_
+
+- [] Bloco 18: Waiting...
+- 18-x: _[Projeto - Waiting...]()_
 
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
