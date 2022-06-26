@@ -1,0 +1,29 @@
+.pokemonCard {
+  border-radius: 8px;
+  background-color: #1a1f29;
+  box-shadow: -2px 2px 8px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1 1 auto;
+  margin: 10px;
+  min-width: 25%;
+}
+
+.pokemonCard:hover {
+  background-color: #202633;
+  box-shadow: -2px 2px 16px black;
+}
+
+aside {
+  width: 120px;
+}
+
+.asideInfo {
+  text-align: left;
+}
+
+.nameInfo {
+  font-size: 20px;
+  font-weight: 800;
+}
