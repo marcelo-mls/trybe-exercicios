@@ -2,6 +2,7 @@ import React from 'react';
 import Pokemons from './pokemons';
 import pokemonsList from '../Data/data';
 import '../Styles/pokedex.css';
+import ButtonStyles from './buttonType';
 
 class Pokedex extends React.Component {
   constructor() {
@@ -18,19 +19,20 @@ class Pokedex extends React.Component {
     });
   }
 
+  fectchTypes() {
+    return [...new Set(pokemonsList.map((pokemon) => pokemon.type))];
+  }
+
   render() {
     const { filteredType } = this.state;
+    const listOfTypes = this.fectchTypes();
     return (
       <div>
-        <button type="button" onClick={ () => this.filter('') }>Todos</button>
+        <button type="button" onClick={ () => this.filter('') }>All</button>
         <div className="buttons">
-          <button type="button" onClick={ () => this.filter('Electric') }>Eletric</button>
-          <button type="button" onClick={ () => this.filter('Fire') }>Fire</button>
-          <button type="button" onClick={ () => this.filter('Bug') }>Bug</button>
-          <button type="button" onClick={ () => this.filter('Poison') }>Poison</button>
-          <button type="button" onClick={ () => this.filter('Psychic') }>Psychic</button>
-          <button type="button" onClick={ () => this.filter('Normal') }>Normal</button>
-          <button type="button" onClick={ () => this.filter('Dragon') }>Dragon</button>
+          { listOfTypes.map((type) => (
+            <ButtonStyles type={ type } key={ type } click={ () => this.filter(type) } />
+          )) }
         </div>
         <section className="oldPokedex">
           { pokemonsList.filter((poke) => poke.type.includes(filteredType))

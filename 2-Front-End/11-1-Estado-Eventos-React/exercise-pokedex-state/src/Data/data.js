@@ -98,6 +98,39 @@ const pokemonsList = [
     image: 'https://cdn2.bulbagarden.net/upload/2/2c/Spr_5b_148.png',
     moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)',
   },
+  {
+    id: 54,
+    name: 'Psyduck',
+    type: 'Water',
+    averageWeight: {
+      value: 19.6,
+      measurementUnit: 'kg',
+    },
+    image: 'https://cdn2.bulbagarden.net/upload/3/39/Spr_5b_054.png',
+    moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)',
+  },
+  {
+    id: 52,
+    name: 'Meowth',
+    type: 'Normal',
+    averageWeight: {
+      value: 4.2,
+      measurementUnit: 'kg',
+    },
+    image: 'https://cdn2.bulbagarden.net/upload/9/93/Spr_5b_052.png',
+    moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)',
+  },
+  {
+    id: 1,
+    name: 'Bulbasaur',
+    type: 'Poison',
+    averageWeight: {
+      value: 6.9,
+      measurementUnit: 'kg',
+    },
+    image: 'https://cdn2.bulbagarden.net/upload/7/76/Spr_5b_001.png',
+    moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)',
+  },
 ];
 
 export default pokemonsList;
