@@ -6,13 +6,7 @@ class ButtonStyles extends React.Component {
     const { type, click } = this.props;
 
     return (
-      <button
-        type="button"
-        key={ type }
-        onClick={ click }
-      >
-        { type }
-      </button>
+      <button type="button" key={ type } onClick={ click }>{ type }</button>
     );
   }
 }
