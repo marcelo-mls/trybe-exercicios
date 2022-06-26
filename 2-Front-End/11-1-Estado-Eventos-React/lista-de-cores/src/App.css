@@ -5,8 +5,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: white;
+  padding-top: 25px;
 }
 
 .colorDisplay {
@@ -26,6 +27,7 @@ li {
   border: 1px solid black;
   padding: 0 10px 15px 10px;
   border-radius: 6px;
+  margin-bottom: 25px;
 }
 
 button {

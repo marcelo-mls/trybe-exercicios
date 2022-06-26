@@ -19,6 +19,34 @@ const colors = [
     name: 'magenta',
     hex: '#f0f',
   },
+  {
+    name: 'white',
+    hex: '#fff',
+  },
+  {
+    name: 'black',
+    hex: '#000',
+  },
+  {
+    name: 'gray',
+    hex: '#5f5f5f',
+  },
+  {
+    name: 'purple',
+    hex: 'purple',
+  },
+  {
+    name: 'pink',
+    hex: 'pink',
+  },
+  {
+    name: 'yellow',
+    hex: 'yellow',
+  },
+  {
+    name: 'brown',
+    hex: 'brown',
+  },
 ]
 
 export default colors

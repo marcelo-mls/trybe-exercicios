@@ -1,5 +1,27 @@
-section {
+.oldPokedex {
   display: flex;
   flex-wrap: wrap;
   margin: 10px
+}
+
+.newPokedex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  align-items: center;
+  width: 500px;
+}
+
+.divBtn {
+  display: flex;
+  align-items: center;
+}
+
+button:active {
+  background-color: yellow;
+}
+
+button {
+  width: 70px;
+  margin: 15px 3px 0 3px;
 }
